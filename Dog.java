@@ -1,12 +1,7 @@
-package BaiTapXuatSac1;
+package BaiTapKha1;
 
-public class Dog extends Mammal{
-    @Override
-   public void makeSound() {
-       System.out.println(super.getName() + " says: Woof Woof!");
-   }
-   public void fetchBall(){
-       System.out.println(super.getName() + " is fetching the ball.");
-
-   }
+public class Dog extends Animal {
+    public Dog(String name) {
+        this.name = name;
+    }
 }
